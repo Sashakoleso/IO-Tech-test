@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>IO Technologies</title>
+</head>
+
+<body>
+  <main class="wrapper">
+    <img class="image_background" src="images/bg.png" alt="image background" width="2297" height="1060" />
+    <div class="company_profile">
+      <ul class="left_wrapper">
+        <li class="logo_position">
+          <img class="image_logo" src="images/logo.png" alt="image logo" width="76" height="55" />
+          <p>Technologies</p>
+        </li>
+        <p>Get how-to help and instructions or specific features in</p>
+        <li class="buttons">
+          <a href=""><button class="help_btn">help center</button></a>
+          <p>or</p>
+          <a href=""><button class="support_btn">support</button></a>
+        </li>
+      </ul>
+    </div>
+    <div class="logining">
+      <div class="right_wrapper">
+        <p class="main_title">Welcome back</p>
+        <p class="title-description">
+          Sing in to continue to IO Technologies.
+        </p>
+        <form action="./pages/index_activ.html" class="sing-up">
+          <input class="mail_input place swing" type="email" placeholder="You email" name="email" required />
+          <input class="pass_input place swing" type="password" placeholder="Password" name="password" required
+            pattern="^.{8,}$" />
+          <button class="button button_main_page button_hover" type="submit" value="log in">log in</button>
+        </form>
+        <p class="pass_notification">Forgot your password?
+          <a class="reser_link" href="./pages/index_reset.html">Reset</a></p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
